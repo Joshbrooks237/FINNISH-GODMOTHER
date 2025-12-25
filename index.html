@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juudan Leijona - The Lion of Judah</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="snow-container">
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+        <div class="snow"></div>
+    </div>
+
+    <!-- Christmas Snow Container (created dynamically) -->
+    <div class="christmas-snow-container" id="christmas-snow-container"></div>
+
+    <header class="icy-header">
+        <div class="frost-overlay"></div>
+        <div class="header-content">
+            <div class="language-toggle">
+                <button id="lang-toggle" class="lang-btn">EN</button>
+            </div>
+            <h1 class="main-title">
+                <span class="fi">Juudan Leijona</span>
+                <span class="en hidden">The Lion of Judah</span>
+            </h1>
+            <div class="subtitle">
+                <span class="fi">Vallan ja Voiman Symboli</span>
+                <span class="en hidden">Symbol of Power and Strength</span>
+            </div>
+        </div>
+    </header>
+
+    <nav class="frost-nav">
+        <div class="nav-container">
+            <a href="#story" class="nav-link">
+                <span class="fi">Tarina</span>
+                <span class="en hidden">Story</span>
+            </a>
+            <a href="#meaning" class="nav-link">
+                <span class="fi">Merkitys</span>
+                <span class="en hidden">Meaning</span>
+            </a>
+            <a href="#godmother" class="nav-link">
+                <span class="fi">Kummitädille</span>
+                <span class="en hidden">For Godmother</span>
+            </a>
+            <a href="#christmas" class="nav-link christmas-link">
+                <span class="fi">🎄 Joulu</span>
+                <span class="en hidden">🎄 Christmas</span>
+            </a>
+            <a href="#bible" class="nav-link bible-link">
+                <span class="fi">📖 Raamattu</span>
+                <span class="en hidden">📖 Bible</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="story" class="ice-section">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="fi">Juudan Leijonan Tarina</span>
+                    <span class="en hidden">The Story of the Lion of Judah</span>
+                </h2>
+                <div class="story-content">
+                    <p class="fi">
+                        Juudan leijona on Raamatun symboli, joka edustaa voimaa, rohkeutta ja jumalallista auktoriteettia.
+                        Tämä symboli löytyy Raamatun kirjauksista, erityisesti Ilmestyskirjasta, jossa Jeesus Kristus
+                        kuvataan "Juudan leijonaksi" - Daavidin sukulinjan leijonaksi.
+                    </p>
+                    <p class="en hidden">
+                        The Lion of Judah is a biblical symbol representing power, courage, and divine authority.
+                        This symbol appears in biblical writings, particularly in the Book of Revelation, where
+                        Jesus Christ is described as "the Lion of the tribe of Judah" - the lion of David's lineage.
+                    </p>
+                    <div class="lion-quote">
+                        <blockquote class="fi">
+                            "Älä pelkää, sillä minä olen sinun kanssasi; älä katso hämmästyneenä ympärillesi,
+                            sillä minä olen sinun Jumalasi. Minä vahvistan sinua, minä autan sinua, minä tuen sinua
+                            oikean kätensä voitolla." – Jesaja 41:10
+                        </blockquote>
+                        <blockquote class="en hidden">
+                            "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you,
+                            I will help you, I will uphold you with my righteous right hand." – Isaiah 41:10
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meaning" class="ice-section alternate">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="fi">Symbolin Merkitys</span>
+                    <span class="en hidden">The Symbol's Meaning</span>
+                </h2>
+                <div class="meaning-grid">
+                    <div class="meaning-card">
+                        <div class="card-icon">🦁</div>
+                        <h3 class="fi">Voima</h3>
+                        <h3 class="en hidden">Strength</h3>
+                        <p class="fi">Leijona symboloi fyysistä ja henkistä voimaa sekä suojaa.</p>
+                        <p class="en hidden">The lion symbolizes physical and spiritual strength and protection.</p>
+                    </div>
+                    <div class="meaning-card">
+                        <div class="card-icon">👑</div>
+                        <h3 class="fi">Kuninkaallisuus</h3>
+                        <h3 class="en hidden">Royalty</h3>
+                        <p class="fi">Juuda oli yksi Israelin kuninkaallisista heimoista.</p>
+                        <p class="en hidden">Judah was one of Israel's royal tribes.</p>
+                    </div>
+                    <div class="meaning-card">
+                        <div class="card-icon">✨</div>
+                        <h3 class="fi">Jumalallinen</h3>
+                        <h3 class="en hidden">Divine</h3>
+                        <p class="fi">Edustaa jumalallista voimaa ja Kristuksen kuninkuutta.</p>
+                        <p class="en hidden">Represents divine power and Christ's kingship.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="godmother" class="ice-section">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="fi">Rakkaalle Kummitädille</span>
+                    <span class="en hidden">To My Beloved Godmother</span>
+                </h2>
+                <div class="godmother-content">
+                    <div class="heart-message">
+                        <p class="fi">
+                            Tämä sivusto on luotu kunnioittamaan sinua, rakas kummitäti.
+                            Olet kuin leijona - vahva, uskollinen ja suojeleva. Sinun viisautesi
+                            ja rakkautesi ovat olleet minulle suuri siunaus.
+                        </p>
+                        <p class="en hidden">
+                            This website was created to honor you, my dear godmother.
+                            You are like a lion - strong, faithful, and protective. Your wisdom
+                            and love have been a great blessing to me.
+                        </p>
+                    </div>
+                    <div class="dedication">
+                        <p class="fi">
+                            Juudan leijona muistuttaa meitä siitä voimasta, jonka Jumala antaa
+                            niille, jotka luottavat Häneen. Samoin sinä olet ollut esimerkki
+                            siitä voimasta elämässäni.
+                        </p>
+                        <p class="en hidden">
+                            The Lion of Judah reminds us of the strength that God gives to
+                            those who trust in Him. Likewise, you have been an example of
+                            that strength in my life.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="christmas" class="christmas-section">
+            <div class="section-content">
+                <h2 class="section-title christmas-title">
+                    <span class="fi">🎄 Hyvää Joulua! 🎄</span>
+                    <span class="en hidden">🎄 Merry Christmas! 🎄</span>
+                </h2>
+                <div class="christmas-content">
+                    <div class="christmas-message">
+                        <p class="fi">
+                            🎅 Tänä jouluna haluan toivottaa sinulle, rakas kummitäti,
+                            rauhaa, rakkautta ja Jumalan siunausta. Olet kuin leijona -
+                            vahva ja suojeleva - ja tämä juhla on sinulle!
+                        </p>
+                        <p class="en hidden">
+                            🎅 This Christmas, I want to wish you, my dear godmother,
+                            peace, love, and God's blessing. You are like a lion -
+                            strong and protective - and this celebration is for you!
+                        </p>
+                    </div>
+                    <div class="christmas-decoration">
+                        <div class="christmas-tree">🎄</div>
+                        <div class="ornaments">
+                            <span class="ornament">🎁</span>
+                            <span class="ornament">❄️</span>
+                            <span class="ornament">⭐</span>
+                            <span class="ornament">🦁</span>
+                            <span class="ornament">❤️</span>
+                        </div>
+                    </div>
+                    <div class="christmas-wish">
+                        <p class="fi">
+                            🙏 Joulun sanoma voimasta ja rakkaudesta yhdistyy Juudan leijonan
+                            symboliin. Toivotan sinulle vuoden täynnä Jumalan voimaa ja rakkautta!
+                        </p>
+                        <p class="en hidden">
+                            🙏 The Christmas message of strength and love unites with the symbol
+                            of the Lion of Judah. I wish you a year full of God's strength and love!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bible" class="bible-section">
+            <div class="section-content">
+                <h2 class="section-title">
+                    <span class="fi">📖 Raamatun Sanat Leijonasta</span>
+                    <span class="en hidden">📖 Bible Verses About Lions</span>
+                </h2>
+                <div class="verses-container">
+                    <div class="bible-verse">
+                        <div class="verse-reference">
+                            <span class="fi">Ilmestyskirja 5:5</span>
+                            <span class="en hidden">Revelation 5:5</span>
+                        </div>
+                        <blockquote class="fi">
+                            "Älä itke! Katso, Juudan sukukunnan leijona, Daavidin juuri, on voittanut niin,
+                            että hän voi avata kirjan ja sen seitsemän sinettiä."
+                        </blockquote>
+                        <blockquote class="en hidden">
+                            "Do not weep! See, the Lion of the tribe of Judah, the Root of David, has triumphed.
+                            He is able to open the scroll and its seven seals."
+                        </blockquote>
+                        <div class="verse-explanation">
+                            <p class="fi">Jeesus Kristus kuvataan tässä voitokkaana leijonana, joka hallitsee ja voittaa.</p>
+                            <p class="en hidden">Jesus Christ is described here as the triumphant Lion who reigns and conquers.</p>
+                        </div>
+                    </div>
+
+                    <div class="bible-verse">
+                        <div class="verse-reference">
+                            <span class="fi">Sananlaskut 28:1</span>
+                            <span class="en hidden">Proverbs 28:1</span>
+                        </div>
+                        <blockquote class="fi">
+                            "Väärä pakenee, vaikka kukaan ei aja takaa, mutta vanhurskas on turvallinen kuin nuori leijona."
+                        </blockquote>
+                        <blockquote class="en hidden">
+                            "The wicked flee though no one pursues, but the righteous are as bold as a lion."
+                        </blockquote>
+                        <div class="verse-explanation">
+                            <p class="fi">Vanhurskas ihminen on rohkea ja peloton kuin leijona Jumalan avulla.</p>
+                            <p class="en hidden">The righteous person is bold and fearless like a lion with God's help.</p>
+                        </div>
+                    </div>
+
+                    <div class="bible-verse">
+                        <div class="verse-reference">
+                            <span class="fi">Jesaja 31:4</span>
+                            <span class="en hidden">Isaiah 31:4</span>
+                        </div>
+                        <blockquote class="fi">
+                            "Näin sanoo Herra minulle: 'Niin kuin leijona, vaikka se on vanha ja heikko, ärjyy saaliinsa äärellä,
+                            niin Herra Sebaot tulee alas taistelemaan Siionin vuorella.'"
+                        </blockquote>
+                        <blockquote class="en hidden">
+                            "This is what the Lord says to me: 'As a lion growls, a great lion over its prey—and though a whole band
+                            of shepherds is called together against it, it is not frightened by their shouts or disturbed by their clamor—
+                            so the Lord Almighty will come down to do battle on Mount Zion.'"
+                        </blockquote>
+                        <div class="verse-explanation">
+                            <p class="fi">Herra on kuin mahtava leijona, joka suojelee kansaansa kaikilta uhkilta.</p>
+                            <p class="en hidden">The Lord is like a mighty lion who protects His people from all threats.</p>
+                        </div>
+                    </div>
+
+                    <div class="bible-verse">
+                        <div class="verse-reference">
+                            <span class="fi">1. Pietari 5:8</span>
+                            <span class="en hidden">1 Peter 5:8</span>
+                        </div>
+                        <blockquote class="fi">
+                            "Olkaa raittiit ja valveilla! Teidän vastustajanne, paholainen, käyskentelee ympäri kuin ärjyvä leijona
+                            ja etsii, ketä voisi niellä."
+                        </blockquote>
+                        <blockquote class="en hidden">
+                            "Be alert and of sober mind. Your enemy the devil prowls around like a roaring lion
+                            looking for someone to devour."
+                        </blockquote>
+                        <div class="verse-explanation">
+                            <p class="fi">Varoitus paholaisen vaaroista, mutta myös muistutus siitä, että Jumala on vahvempi kuin tämä leijona.</p>
+                            <p class="en hidden">A warning about the devil's dangers, but also a reminder that God is stronger than this lion.</p>
+                        </div>
+                    </div>
+
+                    <div class="bible-verse">
+                        <div class="verse-reference">
+                            <span class="fi">Daniel 6:16-23</span>
+                            <span class="en hidden">Daniel 6:16-23</span>
+                        </div>
+                        <blockquote class="fi">
+                            "Silloin kuningas antoi käskyn, ja Daniel tuotiin ja heitettiin leijonien kuoppaan.
+                            Kuningas sanoi Danielille: 'Sinun Jumalasi, jota sinä palvelet alinomaa, hän pelastaa sinut.'"
+                        </blockquote>
+                        <blockquote class="en hidden">
+                            "So the king gave the order, and they brought Daniel and threw him into the lions' den.
+                            The king said to Daniel, 'May your God, whom you serve continually, rescue you!'"
+                        </blockquote>
+                        <div class="verse-explanation">
+                            <p class="fi">Danielin usko Jumalaan pelasti hänet leijonien kuopasta - todiste Jumalan voimasta ja uskollisuudesta.</p>
+                            <p class="en hidden">Daniel's faith in God saved him from the lions' den - proof of God's power and faithfulness.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="icy-footer">
+        <div class="footer-content">
+            <p class="fi">Luotu rakkaudella ja kunnioituksella</p>
+            <p class="en hidden">Created with love and respect</p>
+            <div class="footer-lion">🦁❄️</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
