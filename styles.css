@@ -702,7 +702,17 @@ body {
     }
 
     .main-title {
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+
+    .language-toggle {
+        top: 1rem;
+        right: 1rem;
+    }
+
+    .lang-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.9rem;
     }
 
     .ice-section {
@@ -711,8 +721,36 @@ body {
 }
 
 @media (max-width: 480px) {
+    .icy-header {
+        min-height: 70vh; /* Reduce from full viewport height */
+        padding: 1rem 0;
+    }
+
+    .header-content {
+        padding: 0.5rem;
+        max-width: 100%;
+    }
+
     .main-title {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .language-toggle {
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+
+    .lang-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+        border-radius: 15px;
     }
 
     .section-title {
