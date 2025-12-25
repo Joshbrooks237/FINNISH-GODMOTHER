@@ -99,6 +99,21 @@ And God blessed them, and God said unto them, Be fruitful, and multiply, and rep
 - Colors of high contrast for clear seeing.
 - Text that adapteth to the size of every vessel.
 
+## 🌐 And God Placed Them in the Firmament
+
+And God set them in the firmament of the heaven to give light upon the earth. Thus may this website be hosted upon the firmament of the internet:
+
+1. **Go forth unto GitHub** and enter the repository of thy creation.
+2. **Touch the tab of "Settings"** in the upper portion.
+3. **Scroll down unto "Pages"** in the left scroll.
+4. **Under "Source," choose "Deploy from a branch"**.
+5. **Under "Branch," select "main"** and the folder "/ (root)".
+6. **Touch "Save"** and wait for the word of the Lord, for thy site shall be live at the given URL.
+
+## 📜 Thus Endeth the Record
+
+Thus was it written, thus was it created, thus was it committed unto the repository of GitHub. May this sacred work bring honor and glory unto the Lion of Judah, and may it be a blessing unto thy beloved godmother in this season of Christmas and throughout all the days of her life.
+
 ---
 
 *Thus was it created with love and honor for the godmother who roareth with the strength of the Lion of Judah* 🦁❄️💙
